@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp">
+
+    <CheckBox
+        android:id="@+id/app_item_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="14dp"
+        android:paddingRight="-14dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/app_item_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/app_item_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="6dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/app_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/app_item_version_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/app_item_version_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/app_item_package_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/app_item_last_install"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/app_item_install_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/app_item_is_system"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
